@@ -5,6 +5,7 @@ import { LoadingScreen } from "./components/LoadingScreen.jsx";
 import { Home } from "./components/sections/Home.jsx";
 import { MobileMenu } from "./components/MobileMenu.jsx";
 import { About } from "./components/sections/About.jsx";
+import { Projects } from "./components/sections/Projects.jsx";
 import "./index.css";
 
 
@@ -19,6 +20,7 @@ function App() {
         <MobileMenu  menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Projects />
       </div>
     </>
   );
