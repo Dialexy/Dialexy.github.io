@@ -63,23 +63,19 @@ export const About = () => {
               <strong> Studying Computer Science (Bsc) </strong> - Edge Hill University (2024 - Current)
             </li>
             <li>Relevent studies: Data Strucutres, Algorithms, Databases, Networking, Artificial Intellegence</li>
-            <li>Relevent Coursworks: </li>
+            <li>Relevent Courseworks: </li>
           </ul>
           </div>
           <div className="p-6 rounded-xl border-xl border-white/10 border hover:-translate-y-1 transiton all">
           <h3 className="text-xl font-bold mb-4"> 👔 Work Experience </h3>
           <div className="space-y-4 text-gray-300">
             <h4
-            className="font-semibold">Title:  I am currently looking for experinece in the software space. Either through interships or a short term position</h4>
-            <p>Role: </p>
-            <h4 className="font-semibold">
-
-            </h4>
-            <p></p>
-            <h4 className="font-semibold">
-    
-            </h4>
-            <p></p>
+            className="font-semibold">Title: I am currently looking for experinece in the software space. Either through interships or a short term position</h4>
+            {/* <p>Role: </p> */}   {/* this is part of line above */}
+            {/* <h4 className="font-semibold"></h4>
+            <p>Title:</p>
+            <h4 className="font-semibold"></h4>
+            <p>Role: </p> */}
           </div>
           </div>
         </div>

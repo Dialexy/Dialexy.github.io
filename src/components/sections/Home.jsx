@@ -7,7 +7,7 @@ export const Home = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent leading-right"> I'm Filipe Ramos
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
-        a software developer with an intrest in Data analytics and embedded systems.
+         Software Developer with an interest in Data analytics and embedded systems.
         </p>
         <div className="flex justify-center space-x-4">
           <a href="#projects"
