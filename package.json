@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Dialexy.github.io/reactportfolio",
   "name": "reactportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,6 +15,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "email-js": "^2.0.3",
+    "lucide-react": "^0.503.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.1.4"
