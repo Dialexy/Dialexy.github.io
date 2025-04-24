@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Filipe Ramos: Portfolio</title> {/* Global title for the app */}
+        <title>Filipe Ramos: Portfolio</title>
       </Helmet>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
