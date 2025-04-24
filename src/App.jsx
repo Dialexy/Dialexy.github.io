@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 import "./App.css";
 import { NavBar } from "./components/NavBar.jsx";
 import { LoadingScreen } from "./components/LoadingScreen.jsx";
@@ -15,6 +16,9 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <title>Filipe Ramos: Portfolio</title> {/* Global title for the app */}
+      </Helmet>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div
         className={`min-h-screen transition-opacity duration-800 ${
