@@ -9,7 +9,7 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent leading-tight">
-            I'm Filipe Ramos
+            I'm Filipe Ramos HHELEHLEHLEH
           </h1>
           <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
             Software Developer with an interest in Data Analytics and Embedded Systems.
