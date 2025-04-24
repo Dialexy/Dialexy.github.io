@@ -28,6 +28,24 @@ export const Home = () => {
               Contact Me
             </a>
           </div>
+          <div className="flex justify-center space-x-6 mt-8">
+            <a
+              href="https://www.linkedin.com/in/filipearamos/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-700 text-5xl transitison-all duration-200"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/Dialexy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-700 text-5xl transition-all duration-200"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
         </div>
       </RevealOnScroll>
     </section>
