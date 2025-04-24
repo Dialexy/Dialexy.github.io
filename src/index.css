@@ -7,11 +7,10 @@ html, body {
   background-color: #0a0a0a;
   color: #f3f4f6;
 
-  /* Hide scrollbar while still allowing scrolling */
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 html::-webkit-scrollbar {
-  width: 0; /* Chrome, Safari, Edge */
+  width: 0;
   height: 0;
 }
 
