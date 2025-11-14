@@ -18,9 +18,11 @@ export const About = () => {
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
               Over the past four years, I’ve built a solid foundation in computer science by diving deep into systems, scripting, and hands-on problem solving. I started with Arch Linux, where customizing and automating my workflow pushed me into exploring how software behaves behind the scenes with Lua, and I’ve built and upgraded my own PC over time to support performance testing and local LLM experimentation.
-
+            </p>
+            <p className="text-gray-300 mb-6">
               Along the way, I’ve taken on a range of projects; from full-stack development to performance-oriented programming and personal experiments with running Llama models locally, each one helping me understand different layers of modern software.
-
+            </p>
+            <p className="text-gray-300 mb-6">
               As of current, I am developing a query-optimization interface that connects LLMs and databases, combining Python, SQL, C++, and a React frontend.
             </p>
 
