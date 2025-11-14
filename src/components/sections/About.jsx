@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const ProficientSkills = ["C++", "Java", "Python", "SQL"];
-  const ExploredSkills = ["Lua" ,"JavaScript / ReactJs", "TypeScript", "TailwindCSS"];
+  const ExploredSkills = ["yippie", "Lua", "JavaScript / ReactJs", "TypeScript", "TailwindCSS"];
 
   return (
     <section
