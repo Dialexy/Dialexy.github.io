@@ -12,7 +12,7 @@ export const Home = () => {
             I'm Filipe Ramos
           </h1>
           <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
-            Software Developer with an interest in Data Analytics and Embedded Systems.
+            Software Developer with an interest in Data Analytics and LLM Development.
           </p>
           <div className="flex justify-center space-x-4">
             <a

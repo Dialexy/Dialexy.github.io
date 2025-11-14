@@ -1,8 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const ProficientSkills = ["C++", "Java", "JavaScript", "Python"];
-  const ExploredSkills = ["Node.js", "React", "TypeScript", "TailwindCSS", "Ruby"];
+  const ProficientSkills = ["C++", "Java", "Python", "SQL"];
+  const ExploredSkills = ["Lua" ,"JavaScript / ReactJs", "TypeScript", "TailwindCSS"];
 
   return (
     <section
@@ -17,7 +17,11 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+              Over the past four years, I’ve built a solid foundation in computer science by diving deep into systems, scripting, and hands-on problem solving. I started with Arch Linux, where customizing and automating my workflow pushed me into exploring how software behaves behind the scenes with Lua, and I’ve built and upgraded my own PC over time to support performance testing and local LLM experimentation.
+
+              Along the way, I’ve taken on a range of projects; from full-stack development to performance-oriented programming and personal experiments with running Llama models locally, each one helping me understand different layers of modern software.
+
+              As of current, I am developing a query-optimization interface that connects LLMs and databases, combining Python, SQL, C++, and a React frontend.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -53,19 +57,19 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
+              <h3 className="text-xl font-bold mb-4"> - Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong>Studying Computer Science (BSc)</strong> – Edge Hill University (2024 – Present)
                 </li>
                 <li>
-                  Key subjects: Data Structures, Algorithms, Databases, Networking, Artificial Intelligence
+                  Key subjects: Data Structures, Algorithms, Databases, Network Managment, Artificial Intelligence
                 </li>
               </ul>
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
+              <h3 className="text-xl font-bold mb-4"> - Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <p>
                   I am currently looking for experience in the software space, either through internships or short-term roles. I'm eager to apply my skills in real-world environments and collaborate on meaningful projects.
