@@ -1,12 +1,20 @@
 import { RevealOnScroll } from "../RevealOnScroll.jsx";
 
 export const Projects = () => {
-  const placeholderProjects = new Array(4).fill({
-    title: "Project Placeholder",
-    description: "Project Description Placeholder",
-    techStack: ["lang 1", "lang 2", "lang 3", "lang 4", "lang 5"],
-    link: "Project Link Goes Here",
-  });
+  const projects = [
+    {
+      title: "AVL Tree Implementation",
+      description: "Self-balancing binary search tree in C++ with automatic rebalancing through rotations. Features complete memory management, O(log n) operations, and comprehensive testing suite.",
+      techStack: ["C++", "Data Structures", "Algorithms", "Memory Management"],
+      link: "https://github.com/Dialexy/AVLTree",
+    },
+    ...new Array(3).fill({
+      title: "Project Placeholder",
+      description: "Project Description Placeholder",
+      techStack: ["lang 1", "lang 2", "lang 3", "lang 4", "lang 5"],
+      link: "Project Link Goes Here",
+    }),
+  ];
 
   return (
     <section
@@ -19,7 +27,7 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {placeholderProjects.map((project, index) => (
+            {projects.map((project, index) => (
               <div
                 key={index}
                 className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2_8_rgba(59,130,246,0.2)] transition"
