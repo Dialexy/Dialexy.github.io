@@ -4,7 +4,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "AVL Tree Implementation",
-      description: "Self-balancing binary search tree in C++ with automatic rebalancing through rotations. Features complete memory management, O(log n) operations, and comprehensive testing suite.",
+      description: "Self-balancing binary search tree in C++ with automatic rebalancing through rotations. Features complete memory management, O(log n) operations, and easy intergration into larger projects.",
       techStack: ["C++", "Data Structures", "Algorithms", "Memory Management"],
       link: "https://github.com/Dialexy/AVLTree",
     },
