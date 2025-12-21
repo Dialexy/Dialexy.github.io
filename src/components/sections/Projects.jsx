@@ -2,13 +2,22 @@ import { RevealOnScroll } from "../RevealOnScroll.jsx";
 
 export const Projects = () => {
   const projects = [
+
     {
       title: "AVL Tree Implementation",
       description: "Self-balancing binary search tree in C++ with automatic rebalancing through rotations. Features complete memory management, O(log n) operations, and easy intergration into larger projects.",
       techStack: ["C++", "Data Structures", "Algorithms", "Memory Management"],
       link: "https://github.com/Dialexy/AVLTree",
     },
-    ...new Array(3).fill({
+
+    {
+        title: "Task Scheduler",
+        description: "A lightweight, thread-safe task scheduling system designed to manage and execute tasks in memory. Features priority-based execution, expiration handling, and runtime metrics. Built with modular components, including a task registry, scheduling queue, and observability layer, ensuring immutability, thread safety and efficient task lifecycle managem",
+        techStack: ["C++ (STL)", "Data Strucutres", "CMake/Ctest"],
+        link: "https://github.com/Dialexy/In-Memory-Task-Scheduler"
+    },
+
+    ...new Array(2).fill({
       title: "Project Placeholder",
       description: "Project Description Placeholder",
       techStack: ["lang 1", "lang 2", "lang 3", "lang 4", "lang 5"],
