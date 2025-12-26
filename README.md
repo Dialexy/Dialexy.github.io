@@ -31,6 +31,33 @@ My blackout-esque portfolio website showcasing projects, skills, and contact inf
 - Tailwind CSS Vite plugin for easier building
 
 
+## Naviagation
+
+```
+Portfolio Website/
+├── public/              # Static assets
+├── src/
+│   ├── components/
+│   │   ├── sections/
+│   │   │   ├── Home.jsx       # Landing section
+│   │   │   ├── About.jsx      # About me & skills
+│   │   │   ├── Projects.jsx   # Project showcase
+│   │   │   └── Contact.jsx    # Contact form
+│   │   ├── LoadingScreen.jsx  # Animated loader
+│   │   ├── NavBar.jsx         # Desktop navigation
+│   │   ├── MobileMenu.jsx     # Mobile navigation
+│   │   └── RevealOnScroll.jsx # Scroll animation wrapper
+│   ├── assets/          # Images and media
+│   ├── App.jsx          # Main app component
+│   ├── main.jsx         # React entry point
+│   ├── App.css          # Component styles
+│   └── index.css        # Global styles & Tailwind
+├── index.html           # HTML template
+├── vite.config.js       # Vite configuration
+├── eslint.config.js     # ESLint configuration
+└── package.json         # Dependencies and scripts
+```
+
 
 ## Author
 
