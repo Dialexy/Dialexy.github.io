@@ -25,7 +25,7 @@ export default function Contact() {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-stone-500 to-neutral-50 bg-clip-text text-transparent">
             Contact Me
           </h2>
 

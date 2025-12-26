@@ -11,18 +11,18 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-stone-300 to-neutral-50 bg-clip-text text-transparent text-center">
             About Me
           </h2>
 
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
+            <p className="text-neutral-100 mb-6">
               Over the past four years, I’ve built a solid foundation in computer science by diving deep into systems, scripting, and hands-on problem solving. I started with Arch Linux, where customizing and automating my workflow pushed me into exploring how software behaves behind the scenes with Lua. This led onto local LLM exploration, where I built a PC suited to the hardware needs.
             </p>
-            <p className="text-gray-300 mb-6">
+            <p className="text-neutral-100 mb-6">
               Along the way, I’ve taken on a range of projects; from full-stack development to performance-oriented programming and personal experiments with running Llama models locally, each one helping me understand different layers of modern software.
             </p>
-            <p className="text-gray-300 mb-6">
+            <p className="text-neutral-100 mb-6">
               As of current, I am developing a query-optimization interface that connects LLMs and databases, combining Python, SQL, C++, and a React frontend.
             </p>
 
@@ -33,7 +33,7 @@ export const About = () => {
                   {ProficientSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
+                      className="bg-stone-500 text-gray-300 py-1 px-3 rounded-full text-sm hover:bg-stone-500/30 hover:shadow-[0_2px_8px_rgba(255,255,255,0.2)] transition-all"
                     >
                       {tech}
                     </span>
@@ -47,7 +47,7 @@ export const About = () => {
                   {ExploredSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
+                      className="bg-stone-500 text-gray-300 py-1 px-3 rounded-full text-sm hover:bg-stone-500/30 hover:shadow-[0_2px_8px_rgba(255,255,255,0.2)] transition-all"
                     >
                       {tech}
                     </span>
