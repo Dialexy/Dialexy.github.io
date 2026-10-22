@@ -3,11 +3,11 @@ import { RevealOnScroll } from '../RevealOnScroll.jsx'
 export const Projects = () => {
   const projects = [
     {
-      title: 'AVL Tree Implementation',
+      title: 'Hybrid RAG Pipeline',
       description:
-        'Self-balancing binary search tree in C++ with automatic rebalancing through rotations. Features complete memory management, O(log n) operations, and easy integration into larger projects.',
-      techStack: ['C++', 'Data Structures', 'Algorithms', 'Memory Management'],
-      link: 'https://github.com/Dialexy/AVLTree',
+        'From-scratch retrieval-augmented generation over a 10,000-article Wikipedia corpus (234k chunks). Combines semantic chunking, BM25 + dense retrieval with RRF fusion, LLM query expansion, and cross-encoder reranking with score-based abstention. A custom eval harness with a fixed gold QA set and ablations reaches 0.97 Recall@10, 1.00 Hit@3, and 0.99 abstention accuracy on out-of-corpus questions.',
+      techStack: ['Python', 'ChromaDB', 'Sentence Transformers', 'BM25', 'Ollama', 'FastAPI'],
+      link: 'https://github.com/Dialexy/RAG-pipeline',
     },
 
     {
